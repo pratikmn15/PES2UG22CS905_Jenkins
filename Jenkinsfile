@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running tests...'
-                    sh './hello_exec' 
+                    sh 'cd /var/jenkins_home/workspace/PES2UG22CS905-1/main/  &&  ./hello_exec' 
                 }
             }
         }
